@@ -5,22 +5,22 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "start": "node node_modules/strapi/bin/strapi.js start",
+    "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.1.5",
-    "@strapi/plugin-users-permissions": "4.1.5",
     "@strapi/strapi": "4.1.5",
-    "strapi-provider-upload-do": "^3.6.6",
-    "webpack": "^5.70.0"
+    "@strapi/plugin-users-permissions": "4.1.5",
+    "@strapi/plugin-i18n": "4.1.5",
+    "sqlite3": "5.0.2"
   },
   "author": {
-    "name": "Daniel O'Reilly"
+    "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "393092c3-bb8f-495d-8d05-0656f8232295"
+    "uuid": "4692bcbf-4626-4c7c-84e9-d9756bb3c153"
   },
   "engines": {
     "node": ">=12.x.x <=16.x.x",
