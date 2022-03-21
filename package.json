@@ -1,0 +1,30 @@
+{
+  "name": "tcd-sense-map-back",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "node node_modules/strapi/bin/strapi.js start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.1.5",
+    "@strapi/plugin-users-permissions": "4.1.5",
+    "@strapi/strapi": "4.1.5",
+    "strapi-provider-upload-do": "^3.6.6",
+    "webpack": "^5.70.0"
+  },
+  "author": {
+    "name": "Daniel O'Reilly"
+  },
+  "strapi": {
+    "uuid": "393092c3-bb8f-495d-8d05-0656f8232295"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
