@@ -1,16 +1,17 @@
-module.exports = ({ env }) => ({
+module.exports = ({env}) => ({
+    // ...
     upload: {
       config: {
-        provider: 'strapi-provider-upload-azure-storage',
+        provider: "strapi-provider-upload-do", 
         providerOptions: {
-          account: env('STORAGE_ACCOUNT'),
-          accountKey: env('STORAGE_ACCOUNT_KEY'),
-          serviceBaseURL: env('STORAGE_URL'),
-          containerName: env('STORAGE_CONTAINER_NAME'),
-          cdnBaseURL: env('STORAGE_CDN_URL'),
-          defaultPath: 'assets',
-          maxConcurrent: 10
+          key: env('DO_SPACE_ACCESS_KEY'),
+          secret: env('DO_SPACE_SECRET_KEY'),
+          endpoint: env('DO_SPACE_ENDPOINT'),
+          space: env('DO_SPACE_BUCKET'),
+          directory: env('DO_SPACE_DIRECTORY'),
+          cdn: env('DO_SPACE_CDN'),
         }
-      }
-    }
-  });
+      },
+    }, 
+    // ...
+  })
