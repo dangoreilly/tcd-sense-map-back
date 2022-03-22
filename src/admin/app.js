@@ -23,11 +23,11 @@ export default {
     // Override or extend the theme
     theme: {
       colors: {
-        primary100: '#f6ecfc',
+        primary100: '#e4f7fb', // New superlight Blue (#f6ecfc)
         primary200: '#e0c1f4',
-        primary500: '#ac73e6',
-        primary600: '#9736e8',
-        primary700: '#8312d1',
+        primary500: '#c2f4fe', // Blue 2 (#ac73e6)
+        primary600: '#0087a2', // Blue 1 (#9736e8)
+        primary700: '#0087a2', // Blue 1 (#8312d1)
         danger700: '#b72b1a'
       },
     },
