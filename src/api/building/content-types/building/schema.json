@@ -4,7 +4,8 @@
   "info": {
     "singularName": "building",
     "pluralName": "buildings",
-    "displayName": "Building"
+    "displayName": "Building",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -139,15 +140,6 @@
       },
       "type": "string"
     },
-    "Tips": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "richtext",
-      "default": "No tips for this area"
-    },
     "infoPageEnabled": {
       "pluginOptions": {
         "i18n": {
@@ -159,11 +151,12 @@
       "required": true
     },
     "PrimaryImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -171,16 +164,26 @@
       }
     },
     "Gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
+    },
+    "Tips": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
+      "default": "No tips for this area"
     }
   }
 }
