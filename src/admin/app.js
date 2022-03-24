@@ -31,16 +31,13 @@ export default {
         danger700: '#b72b1a'
       },
     },
-    // Extend the translations
-    // translations: {
-    //   fr: {
-    //     'Auth.form.email.label': 'test',
-    //     Users: 'Utilisateurs',
-    //     City: 'CITY (FRENCH)',
-    //     // Customize the label of the Content Manager table.
-    //     Id: 'ID french',
-    //   },
-    // },
+    // Rebranding
+    translations: {
+      en: {
+        "app.components.LeftMenu.navbrand.title": "TCDSense Map",
+        "app.components.LeftMenu.navbrand.workplace": "Content Management System",
+      },
+    },
    // Disable video tutorials
     tutorials: false,
    // Disable notifications about new Strapi releases
