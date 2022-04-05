@@ -184,6 +184,15 @@
       },
       "type": "text",
       "default": "No tips for this area"
+    },
+    "PhysicalAccessLink": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "#"
     }
   }
 }
