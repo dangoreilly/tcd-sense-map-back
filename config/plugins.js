@@ -13,5 +13,18 @@ module.exports = ({env}) => ({
         }
       },
     }, 
+    email: {
+      config: {
+        provider: 'sendgrid',
+        providerOptions: {
+          apiKey: env('SENDGRID_API_KEY'),
+        },
+        settings: {
+          defaultFrom: 'no-reply@tcdsensemap-test.ie',
+          defaultReplyTo: 'dan.oreilly@tcd.ie',
+          testAddress: 'oreild21@tcd.ie',
+        },
+      },
+    },
     // ...
   })
