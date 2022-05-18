@@ -63,14 +63,6 @@
       "targetField": "Name",
       "required": true
     },
-    "Label": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
     "location": {
       "pluginOptions": {
         "i18n": {
