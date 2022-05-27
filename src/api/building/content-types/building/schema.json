@@ -59,8 +59,7 @@
           "localized": true
         }
       },
-      "type": "string",
-      "unique": true
+      "type": "string"
     },
     "ZoomedOutLabel": {
       "pluginOptions": {
