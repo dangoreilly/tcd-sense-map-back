@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "overlays",
+  "info": {
+    "singularName": "overlay",
+    "pluralName": "overlays",
+    "displayName": "Overlay"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "private": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Bounds": {
+      "type": "json"
+    }
+  }
+}
