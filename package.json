@@ -10,12 +10,13 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.1.7",
-    "@strapi/plugin-users-permissions": "4.1.7",
+    "@strapi/plugin-i18n": "4.2.3",
+    "@strapi/plugin-users-permissions": "4.2.3",
     "@strapi/provider-email-sendgrid": "^4.1.11",
-    "@strapi/strapi": "4.1.7",
+    "@strapi/strapi": "4.2.3",
     "pg": "^8.7.3",
     "sqlite3": "5.0.2",
+    "better-sqlite3": "7.4.6",
     "strapi": "^3.6.8",
     "strapi-provider-upload-do": "^3.6.6",
     "webpack": "^5.70.0"

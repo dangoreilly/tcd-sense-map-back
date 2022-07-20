@@ -21,9 +21,14 @@ module.exports = ({env}) => ({
         },
         settings: {
           defaultFrom: 'no-reply@tcdsensemap-test.ie',
-          defaultReplyTo: 'dan.oreilly@tcd.ie',
-          testAddress: 'oreild21@tcd.ie',
+          defaultReplyTo: 'dangoreilly@gmail.com',
+          testAddress: 'dangoreilly@gmail.com',
         },
+      },
+    },
+    'users-permissions': {
+      config: {
+        jwtSecret: env('JWT_SECRET')
       },
     },
     // ...
