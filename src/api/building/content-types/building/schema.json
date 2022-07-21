@@ -78,15 +78,6 @@
       },
       "type": "json"
     },
-    "sensoryAvailable": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "boolean",
-      "required": true
-    },
     "mapped": {
       "pluginOptions": {
         "i18n": {
