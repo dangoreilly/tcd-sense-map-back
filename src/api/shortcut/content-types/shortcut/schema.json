@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shortcuts",
+  "info": {
+    "singularName": "shortcut",
+    "pluralName": "shortcuts",
+    "displayName": "Shortcut"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ZoomedOutLabel": {
+      "type": "string"
+    },
+    "ZoomedInLabel": {
+      "type": "string"
+    },
+    "target": {
+      "type": "json",
+      "required": true
+    },
+    "marker": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "markerLocation": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
