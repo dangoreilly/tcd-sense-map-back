@@ -4,7 +4,8 @@
   "info": {
     "singularName": "overlay",
     "pluralName": "overlays",
-    "displayName": "Overlay"
+    "displayName": "Overlay",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,15 +17,20 @@
       "private": true
     },
     "Image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "Bounds": {
       "type": "json"
+    },
+    "drawOverBuildings": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
