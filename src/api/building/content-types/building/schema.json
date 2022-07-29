@@ -148,7 +148,7 @@
         }
       },
       "type": "boolean",
-      "default": true,
+      "default": false,
       "required": true
     },
     "PrimaryImage": {
@@ -193,7 +193,7 @@
         }
       },
       "type": "string",
-      "default": "#"
+      "default": ""
     },
     "floors": {
       "type": "relation",
