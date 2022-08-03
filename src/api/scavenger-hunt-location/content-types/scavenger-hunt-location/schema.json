@@ -27,6 +27,14 @@
     "keyParam": {
       "type": "string",
       "regex": "(?<=\\s+|^)[A-z]+(?=\\s+|$)"
+    },
+    "Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
