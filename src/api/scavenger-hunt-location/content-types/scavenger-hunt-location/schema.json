@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "scavenger_hunt_locations",
+  "info": {
+    "singularName": "scavenger-hunt-location",
+    "pluralName": "scavenger-hunt-locations",
+    "displayName": "Scavenger Hunt Location",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "MainText": {
+      "type": "text",
+      "required": true
+    },
+    "Location": {
+      "type": "json",
+      "required": true
+    },
+    "keyParam": {
+      "type": "string",
+      "regex": "(?<=\\s+|^)[A-z]+(?=\\s+|$)"
+    }
+  }
+}
